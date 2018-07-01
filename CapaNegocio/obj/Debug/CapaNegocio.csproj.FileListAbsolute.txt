@@ -1,0 +1,11 @@
+C:\Users\Ignacio\Documents\Visual Studio 2015\Projects\Burguer(4)\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Ignacio\Documents\Visual Studio 2015\Projects\Burguer(4)\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Ignacio\Documents\Visual Studio 2015\Projects\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio\Documents\Visual Studio 2015\Projects\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Ignacio\Documents\Visual Studio 2015\Projects\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\javier\Desktop\Burguer(4)\CapaNegocio\obj\Debug\CapaNegocio.pdb

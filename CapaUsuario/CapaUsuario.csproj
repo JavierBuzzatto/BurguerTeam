@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2186F99E-5BA0-483B-8D30-0FEF1857E603}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaUsuario</RootNamespace>
+    <AssemblyName>CapaUsuario</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormEmpleadoPostre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoPostre.Designer.cs">
+      <DependentUpon>FormEmpleadoPostre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleadoJr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoJr.Designer.cs">
+      <DependentUpon>FormEmpleadoJr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleadoBio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoBio.Designer.cs">
+      <DependentUpon>FormEmpleadoBio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleadoChurrasquitos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoChurrasquitos.Designer.cs">
+      <DependentUpon>FormEmpleadoChurrasquitos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleadoPollo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoPollo.Designer.cs">
+      <DependentUpon>FormEmpleadoPollo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleadoHamburguesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoHamburguesa.Designer.cs">
+      <DependentUpon>FormEmpleadoHamburguesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleado.Designer.cs">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGerente.Designer.cs">
+      <DependentUpon>FormGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPago.Designer.cs">
+      <DependentUpon>FormPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEmpleadoPostre.resx">
+      <DependentUpon>FormEmpleadoPostre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoJr.resx">
+      <DependentUpon>FormEmpleadoJr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoBio.resx">
+      <DependentUpon>FormEmpleadoBio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoChurrasquitos.resx">
+      <DependentUpon>FormEmpleadoChurrasquitos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoPollo.resx">
+      <DependentUpon>FormEmpleadoPollo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoHamburguesa.resx">
+      <DependentUpon>FormEmpleadoHamburguesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleado.resx">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGerente.resx">
+      <DependentUpon>FormGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPago.resx">
+      <DependentUpon>FormPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\Block Berthold BQ Regular.otf" />
+    <None Include="Resources\Insanibc.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{a5fb7e1b-b24b-4060-81fb-401410b809eb}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\LOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CONFIRMAR.png" />
+    <None Include="Resources\LIMPIAR.png" />
+    <None Include="Resources\METPAGO.png" />
+    <None Include="Resources\MAYORVENTA.png" />
+    <None Include="Resources\HAMBMASVEND.png" />
+    <None Include="Resources\COBRAR.png" />
+    <None Include="Resources\TARJETA.png" />
+    <None Include="Resources\EFECTIVO.png" />
+    <None Include="Resources\cobranza.png" />
+    <EmbeddedResource Include="Resources\whopper_extreme-high.png" />
+    <EmbeddedResource Include="Resources\whopper.png" />
+    <EmbeddedResource Include="Resources\TIPO.png" />
+    <EmbeddedResource Include="Resources\modificar.png" />
+    <EmbeddedResource Include="Resources\Long-Rodeo-BBQ540.png" />
+    <EmbeddedResource Include="Resources\Long540.png" />
+    <EmbeddedResource Include="Resources\FORMGERENTE.png" />
+    <EmbeddedResource Include="Resources\FLECHA.png" />
+    <EmbeddedResource Include="Resources\extra-high_0.png" />
+    <EmbeddedResource Include="Resources\ENVIAR.png" />
+    <EmbeddedResource Include="Resources\ENTRAR.png" />
+    <EmbeddedResource Include="Resources\ELIMINAR.png" />
+    <EmbeddedResource Include="Resources\download.png" />
+    <EmbeddedResource Include="Resources\CRUZ.png" />
+    <EmbeddedResource Include="Resources\CANCELAR.png" />
+    <EmbeddedResource Include="Resources\caca.png" />
+    <EmbeddedResource Include="Resources\Burger_King_logo_1999.png" />
+    <EmbeddedResource Include="Resources\BOTON-IMPORTANTE.png" />
+    <EmbeddedResource Include="Resources\BK_Web_WhopperJr_500x540.png" />
+    <EmbeddedResource Include="Resources\BK_Web_TOMATITOS_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_SUNDAE_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_PAPAS_FRITAS_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_NAPOLITANO_500X540px_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_KING_DE_POLLO_FRANCES_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_KING_DE_POLLO_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_JUGO_TROPICANA_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_HAMBURGUESA-corregida_500X540px_0_0_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_HAMBURGUESA-CON-QUESO-corregida_500X540px_0_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_GASEOSA_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_CONOS_RELLENOS_500X540px_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_CONO_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_CHURRASQUITO_TRADICIONAL_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_CHURRASQUITO_PAMPEANO_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_CAJA_KING.JR_300x270px.jpg" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_STACKER_TRIPLE_500X540px_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_STACKER_TRIPLE_500X540px_0 %281%29.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_STACKER_CUADRUPLE_500X540px_0.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_SOJA_BIO_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_SNACKS_500X540px_3.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_NUGGETS_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_ENSALADA_GOURMET_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BK_ENSALADA_CAESAR_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_BIG_KING_POLLO_500X540px.png" />
+    <EmbeddedResource Include="Resources\BK_Web_AROS_CEBOLLA_500X540px.png" />
+    <EmbeddedResource Include="Resources\BIG-KING-500X540-A-LA-PARRILLA.png" />
+    <EmbeddedResource Include="Resources\atomic-grande.png" />
+    <EmbeddedResource Include="Resources\AGREGARH.png" />
+    <EmbeddedResource Include="Resources\AGREGARC.png" />
+    <EmbeddedResource Include="Resources\AGREGARB.png" />
+    <EmbeddedResource Include="Resources\AGREGAR.png" />
+    <EmbeddedResource Include="Resources\ACEPTAR.png" />
+    <EmbeddedResource Include="Resources\500x540_king-mix.png" />
+    <EmbeddedResource Include="Resources\500x540_cucuruchones.png" />
+    <EmbeddedResource Include="Resources\500.png" />
+    <EmbeddedResource Include="Resources\5842996fa6515b1e0ad75add.ico" />
+    <EmbeddedResource Include="Resources\contraseña.png" />
+    <EmbeddedResource Include="Resources\pass.png" />
+    <EmbeddedResource Include="Resources\login 2.png" />
+    <EmbeddedResource Include="Resources\login 1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
