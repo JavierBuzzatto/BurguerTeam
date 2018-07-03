@@ -47,7 +47,7 @@ namespace CapaUsuario
                         }
                         else
                         {
-                            MessageBox.Show("xD");
+                          
                             this.Hide();
                             new FormEmpleado().ShowDialog();
                             LBLUincorrecto.Visible = false;

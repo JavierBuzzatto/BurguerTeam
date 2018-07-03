@@ -243,8 +243,6 @@
             this.label128 = new System.Windows.Forms.Label();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.PBXCerrar = new System.Windows.Forms.PictureBox();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.PEfec = new System.Windows.Forms.PictureBox();
             this.LimpiarPedido = new System.Windows.Forms.PictureBox();
             this.btnConfirmar = new System.Windows.Forms.PictureBox();
@@ -256,6 +254,8 @@
             this.rbCredito = new System.Windows.Forms.RadioButton();
             this.dgvConfirmar = new System.Windows.Forms.DataGridView();
             this.BtnVolver = new System.Windows.Forms.PictureBox();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBHamb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -2973,28 +2973,6 @@
             this.PBXCerrar.TabStop = false;
             this.PBXCerrar.Click += new System.EventHandler(this.PBXCerrar_Click_1);
             // 
-            // lblTotal
-            // 
-            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(1067, 469);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(34, 13);
-            this.lblTotal.TabIndex = 39;
-            this.lblTotal.Text = "Total:";
-            this.lblTotal.Visible = false;
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(1133, 467);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(13, 13);
-            this.lblResultado.TabIndex = 40;
-            this.lblResultado.Text = "0";
-            this.lblResultado.Visible = false;
-            // 
             // PEfec
             // 
             this.PEfec.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -3123,11 +3101,37 @@
             this.BtnVolver.TabStop = false;
             this.BtnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
             // 
+            // lblTotal
+            // 
+            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblTotal.Location = new System.Drawing.Point(1062, 441);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(79, 25);
+            this.lblTotal.TabIndex = 53;
+            this.lblTotal.Text = "Total:";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblResultado.Location = new System.Drawing.Point(1137, 441);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(27, 25);
+            this.lblResultado.TabIndex = 54;
+            this.lblResultado.Text = "0";
+            // 
             // FormEmpleadoHamburguesa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 780);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.PBHamb);
             this.Controls.Add(this.dgvConfirmar);
@@ -3141,8 +3145,6 @@
             this.Controls.Add(this.LblHamb);
             this.Controls.Add(this.LimpiarPedido);
             this.Controls.Add(this.PEfec);
-            this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.PBXCerrar);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -3500,8 +3502,6 @@
         private System.Windows.Forms.Button aceptarStacker;
         private System.Windows.Forms.Button aceptarLong;
         private System.Windows.Forms.PictureBox PBXCerrar;
-        private System.Windows.Forms.Label lblTotal;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.PictureBox PEfec;
         private System.Windows.Forms.PictureBox LimpiarPedido;
         private System.Windows.Forms.PictureBox btnConfirmar;
@@ -3513,6 +3513,8 @@
         private System.Windows.Forms.RadioButton rbCredito;
         private System.Windows.Forms.DataGridView dgvConfirmar;
         private System.Windows.Forms.PictureBox BtnVolver;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblResultado;
     }
 
 

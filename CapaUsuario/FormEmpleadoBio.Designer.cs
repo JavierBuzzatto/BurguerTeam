@@ -35,7 +35,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.PBio = new System.Windows.Forms.Panel();
-            this.aceptarSojaBio = new System.Windows.Forms.Button();
             this.pnlRadio_PBio3 = new System.Windows.Forms.Panel();
             this.radioButton49 = new System.Windows.Forms.RadioButton();
             this.radioButton50 = new System.Windows.Forms.RadioButton();
@@ -66,6 +65,7 @@
             this.rbDebito = new System.Windows.Forms.RadioButton();
             this.rbCredito = new System.Windows.Forms.RadioButton();
             this.dgvConfirmar = new System.Windows.Forms.DataGridView();
+            this.pictureBoxBio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBBio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -81,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -143,7 +144,7 @@
             // PBio
             // 
             this.PBio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PBio.Controls.Add(this.aceptarSojaBio);
+            this.PBio.Controls.Add(this.pictureBoxBio);
             this.PBio.Controls.Add(this.pnlRadio_PBio3);
             this.PBio.Controls.Add(this.pnlRadio_PBio2);
             this.PBio.Controls.Add(this.pnlRadio_PBio1);
@@ -158,16 +159,6 @@
             this.PBio.Name = "PBio";
             this.PBio.Size = new System.Drawing.Size(669, 540);
             this.PBio.TabIndex = 19;
-            // 
-            // aceptarSojaBio
-            // 
-            this.aceptarSojaBio.Location = new System.Drawing.Point(519, 416);
-            this.aceptarSojaBio.Name = "aceptarSojaBio";
-            this.aceptarSojaBio.Size = new System.Drawing.Size(75, 23);
-            this.aceptarSojaBio.TabIndex = 42;
-            this.aceptarSojaBio.Text = "Aceptar";
-            this.aceptarSojaBio.UseVisualStyleBackColor = true;
-            this.aceptarSojaBio.Click += new System.EventHandler(this.aceptarSojaBio_Click);
             // 
             // pnlRadio_PBio3
             // 
@@ -391,23 +382,25 @@
             // 
             this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(1067, 469);
+            this.lblTotal.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblTotal.Location = new System.Drawing.Point(1055, 448);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(34, 13);
+            this.lblTotal.Size = new System.Drawing.Size(79, 25);
             this.lblTotal.TabIndex = 39;
             this.lblTotal.Text = "Total:";
-            this.lblTotal.Visible = false;
             // 
             // lblResultado
             // 
             this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(1133, 467);
+            this.lblResultado.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblResultado.Location = new System.Drawing.Point(1127, 448);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(13, 13);
+            this.lblResultado.Size = new System.Drawing.Size(27, 25);
             this.lblResultado.TabIndex = 40;
             this.lblResultado.Text = "0";
-            this.lblResultado.Visible = false;
             // 
             // PEfec
             // 
@@ -526,6 +519,17 @@
             this.dgvConfirmar.Size = new System.Drawing.Size(270, 179);
             this.dgvConfirmar.TabIndex = 50;
             // 
+            // pictureBoxBio
+            // 
+            this.pictureBoxBio.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxBio.InitialImage = null;
+            this.pictureBoxBio.Location = new System.Drawing.Point(474, 395);
+            this.pictureBoxBio.Name = "pictureBoxBio";
+            this.pictureBoxBio.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxBio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBio.TabIndex = 42;
+            this.pictureBoxBio.TabStop = false;
+            // 
             // FormEmpleadoBio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -534,7 +538,6 @@
             this.Controls.Add(this.dgvConfirmar);
             this.Controls.Add(this.rbCredito);
             this.Controls.Add(this.rbDebito);
-            this.Controls.Add(this.PBio);
             this.Controls.Add(this.rbEfectivo);
             this.Controls.Add(this.dgvCombo);
             this.Controls.Add(this.label4);
@@ -550,6 +553,7 @@
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PBio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
@@ -576,6 +580,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -606,7 +611,6 @@
         private System.Windows.Forms.Panel pnlRadio_PBio3;
         private System.Windows.Forms.Panel pnlRadio_PBio2;
         private System.Windows.Forms.Panel pnlRadio_PBio1;
-        private System.Windows.Forms.Button aceptarSojaBio;
         private System.Windows.Forms.PictureBox PBXCerrar;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label lblResultado;
@@ -620,6 +624,7 @@
         private System.Windows.Forms.RadioButton rbDebito;
         private System.Windows.Forms.RadioButton rbCredito;
         private System.Windows.Forms.DataGridView dgvConfirmar;
+        private System.Windows.Forms.PictureBox pictureBoxBio;
     }
 
 

@@ -14,3 +14,8 @@ C:\Users\tig6\Source\Repos\BurguerTeam\CapaNegocio\bin\Debug\CapaNegocio.pdb
 C:\Users\tig6\Source\Repos\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\tig6\Source\Repos\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\tig6\Source\Repos\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\hotwe\Desktop\Colegio\PP\BurguerTeam\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\hotwe\Desktop\Colegio\PP\BurguerTeam\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\hotwe\Desktop\Colegio\PP\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\hotwe\Desktop\Colegio\PP\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\hotwe\Desktop\Colegio\PP\BurguerTeam\CapaNegocio\obj\Debug\CapaNegocio.pdb

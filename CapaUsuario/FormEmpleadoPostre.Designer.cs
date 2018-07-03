@@ -46,7 +46,6 @@
             this.PBConoR = new System.Windows.Forms.PictureBox();
             this.PBCono = new System.Windows.Forms.PictureBox();
             this.PCono = new System.Windows.Forms.Panel();
-            this.aceptarCono = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label94 = new System.Windows.Forms.Label();
             this.radioButton112 = new System.Windows.Forms.RadioButton();
@@ -56,7 +55,6 @@
             this.label90 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.PSundae = new System.Windows.Forms.Panel();
-            this.aceptarSundae = new System.Windows.Forms.Button();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label100 = new System.Windows.Forms.Label();
             this.radioButton122 = new System.Windows.Forms.RadioButton();
@@ -66,7 +64,6 @@
             this.label102 = new System.Windows.Forms.Label();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.PCucu = new System.Windows.Forms.Panel();
-            this.aceptarCucuruchon = new System.Windows.Forms.Button();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.radioButton121 = new System.Windows.Forms.RadioButton();
@@ -75,7 +72,6 @@
             this.label104 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.aceptarKingMix = new System.Windows.Forms.Button();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label105 = new System.Windows.Forms.Label();
             this.radioButton118 = new System.Windows.Forms.RadioButton();
@@ -84,8 +80,6 @@
             this.LKmix = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.PBXCerrar = new System.Windows.Forms.PictureBox();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.PEfec = new System.Windows.Forms.PictureBox();
             this.LimpiarPedido = new System.Windows.Forms.PictureBox();
             this.btnConfirmar = new System.Windows.Forms.PictureBox();
@@ -104,14 +98,20 @@
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.label98 = new System.Windows.Forms.Label();
             this.pnlRadio_LConoR1 = new System.Windows.Forms.Panel();
-            this.radioButton117 = new System.Windows.Forms.RadioButton();
-            this.radioButton116 = new System.Windows.Forms.RadioButton();
             this.radioButton115 = new System.Windows.Forms.RadioButton();
+            this.radioButton116 = new System.Windows.Forms.RadioButton();
+            this.radioButton117 = new System.Windows.Forms.RadioButton();
             this.pnlRadio_LConoR2 = new System.Windows.Forms.Panel();
-            this.radioButton120 = new System.Windows.Forms.RadioButton();
             this.radioButton119 = new System.Windows.Forms.RadioButton();
-            this.aceptarConoRelleno = new System.Windows.Forms.Button();
+            this.radioButton120 = new System.Windows.Forms.RadioButton();
             this.PConoR = new System.Windows.Forms.Panel();
+            this.pictureBoxKingMix = new System.Windows.Forms.PictureBox();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBoxSundae = new System.Windows.Forms.PictureBox();
+            this.pictureBoxConoR = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCono = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCuc = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBPostre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -141,6 +141,11 @@
             this.pnlRadio_LConoR1.SuspendLayout();
             this.pnlRadio_LConoR2.SuspendLayout();
             this.PConoR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConoR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -330,7 +335,7 @@
             // PCono
             // 
             this.PCono.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PCono.Controls.Add(this.aceptarCono);
+            this.PCono.Controls.Add(this.pictureBoxCono);
             this.PCono.Controls.Add(this.textBox13);
             this.PCono.Controls.Add(this.label94);
             this.PCono.Controls.Add(this.radioButton112);
@@ -344,16 +349,6 @@
             this.PCono.Size = new System.Drawing.Size(669, 540);
             this.PCono.TabIndex = 29;
             this.PCono.Visible = false;
-            // 
-            // aceptarCono
-            // 
-            this.aceptarCono.Location = new System.Drawing.Point(462, 375);
-            this.aceptarCono.Name = "aceptarCono";
-            this.aceptarCono.Size = new System.Drawing.Size(75, 23);
-            this.aceptarCono.TabIndex = 29;
-            this.aceptarCono.Text = "Aceptar";
-            this.aceptarCono.UseVisualStyleBackColor = true;
-            this.aceptarCono.Click += new System.EventHandler(this.aceptarCono_Click);
             // 
             // textBox13
             // 
@@ -453,7 +448,7 @@
             // PSundae
             // 
             this.PSundae.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PSundae.Controls.Add(this.aceptarSundae);
+            this.PSundae.Controls.Add(this.pictureBoxSundae);
             this.PSundae.Controls.Add(this.textBox15);
             this.PSundae.Controls.Add(this.label100);
             this.PSundae.Controls.Add(this.radioButton122);
@@ -468,16 +463,6 @@
             this.PSundae.Size = new System.Drawing.Size(669, 534);
             this.PSundae.TabIndex = 32;
             this.PSundae.Visible = false;
-            // 
-            // aceptarSundae
-            // 
-            this.aceptarSundae.Location = new System.Drawing.Point(420, 367);
-            this.aceptarSundae.Name = "aceptarSundae";
-            this.aceptarSundae.Size = new System.Drawing.Size(75, 23);
-            this.aceptarSundae.TabIndex = 29;
-            this.aceptarSundae.Text = "Aceptar";
-            this.aceptarSundae.UseVisualStyleBackColor = true;
-            this.aceptarSundae.Click += new System.EventHandler(this.aceptarSundae_Click);
             // 
             // textBox15
             // 
@@ -577,7 +562,7 @@
             // PCucu
             // 
             this.PCucu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PCucu.Controls.Add(this.aceptarCucuruchon);
+            this.PCucu.Controls.Add(this.pictureBoxCuc);
             this.PCucu.Controls.Add(this.textBox16);
             this.PCucu.Controls.Add(this.label99);
             this.PCucu.Controls.Add(this.radioButton121);
@@ -585,21 +570,11 @@
             this.PCucu.Controls.Add(this.label103);
             this.PCucu.Controls.Add(this.label104);
             this.PCucu.Controls.Add(this.pictureBox21);
-            this.PCucu.Location = new System.Drawing.Point(316, 171);
+            this.PCucu.Location = new System.Drawing.Point(313, 159);
             this.PCucu.Name = "PCucu";
             this.PCucu.Size = new System.Drawing.Size(669, 540);
             this.PCucu.TabIndex = 33;
             this.PCucu.Visible = false;
-            // 
-            // aceptarCucuruchon
-            // 
-            this.aceptarCucuruchon.Location = new System.Drawing.Point(443, 362);
-            this.aceptarCucuruchon.Name = "aceptarCucuruchon";
-            this.aceptarCucuruchon.Size = new System.Drawing.Size(75, 23);
-            this.aceptarCucuruchon.TabIndex = 29;
-            this.aceptarCucuruchon.Text = "Aceptar";
-            this.aceptarCucuruchon.UseVisualStyleBackColor = true;
-            this.aceptarCucuruchon.Click += new System.EventHandler(this.aceptarCucuruchon_Click);
             // 
             // textBox16
             // 
@@ -684,7 +659,7 @@
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel2.Controls.Add(this.aceptarKingMix);
+            this.panel2.Controls.Add(this.pictureBoxKingMix);
             this.panel2.Controls.Add(this.textBox17);
             this.panel2.Controls.Add(this.label105);
             this.panel2.Controls.Add(this.radioButton118);
@@ -692,22 +667,12 @@
             this.panel2.Controls.Add(this.label106);
             this.panel2.Controls.Add(this.LKmix);
             this.panel2.Controls.Add(this.pictureBox22);
-            this.panel2.Location = new System.Drawing.Point(316, 171);
+            this.panel2.Location = new System.Drawing.Point(310, 156);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(669, 540);
             this.panel2.TabIndex = 34;
             this.panel2.Visible = false;
             this.panel2.Click += new System.EventHandler(this.PBKMix_Click);
-            // 
-            // aceptarKingMix
-            // 
-            this.aceptarKingMix.Location = new System.Drawing.Point(452, 390);
-            this.aceptarKingMix.Name = "aceptarKingMix";
-            this.aceptarKingMix.Size = new System.Drawing.Size(75, 23);
-            this.aceptarKingMix.TabIndex = 29;
-            this.aceptarKingMix.Text = "Aceptar";
-            this.aceptarKingMix.UseVisualStyleBackColor = true;
-            this.aceptarKingMix.Click += new System.EventHandler(this.aceptarKingMix_Click);
             // 
             // textBox17
             // 
@@ -801,28 +766,6 @@
             this.PBXCerrar.TabIndex = 38;
             this.PBXCerrar.TabStop = false;
             this.PBXCerrar.Click += new System.EventHandler(this.PBXCerrar_Click_1);
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(1067, 469);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(34, 13);
-            this.lblTotal.TabIndex = 39;
-            this.lblTotal.Text = "Total:";
-            this.lblTotal.Visible = false;
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(1133, 467);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(13, 13);
-            this.lblResultado.TabIndex = 40;
-            this.lblResultado.Text = "0";
-            this.lblResultado.Visible = false;
             // 
             // PEfec
             // 
@@ -1023,20 +966,20 @@
             this.pnlRadio_LConoR1.Size = new System.Drawing.Size(374, 38);
             this.pnlRadio_LConoR1.TabIndex = 32;
             // 
-            // radioButton117
+            // radioButton115
             // 
-            this.radioButton117.AutoSize = true;
-            this.radioButton117.BackColor = System.Drawing.Color.White;
-            this.radioButton117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.radioButton117.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton117.Location = new System.Drawing.Point(0, 7);
-            this.radioButton117.Name = "radioButton117";
-            this.radioButton117.Size = new System.Drawing.Size(117, 28);
-            this.radioButton117.TabIndex = 24;
-            this.radioButton117.TabStop = true;
-            this.radioButton117.Text = "VAINILLA";
-            this.radioButton117.UseVisualStyleBackColor = false;
+            this.radioButton115.AutoSize = true;
+            this.radioButton115.BackColor = System.Drawing.Color.White;
+            this.radioButton115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.radioButton115.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton115.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.radioButton115.Location = new System.Drawing.Point(273, 7);
+            this.radioButton115.Name = "radioButton115";
+            this.radioButton115.Size = new System.Drawing.Size(94, 28);
+            this.radioButton115.TabIndex = 26;
+            this.radioButton115.TabStop = true;
+            this.radioButton115.Text = "MIXTO";
+            this.radioButton115.UseVisualStyleBackColor = false;
             // 
             // radioButton116
             // 
@@ -1053,20 +996,20 @@
             this.radioButton116.Text = "DULCE DE LECHE";
             this.radioButton116.UseVisualStyleBackColor = false;
             // 
-            // radioButton115
+            // radioButton117
             // 
-            this.radioButton115.AutoSize = true;
-            this.radioButton115.BackColor = System.Drawing.Color.White;
-            this.radioButton115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.radioButton115.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton115.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton115.Location = new System.Drawing.Point(273, 7);
-            this.radioButton115.Name = "radioButton115";
-            this.radioButton115.Size = new System.Drawing.Size(94, 28);
-            this.radioButton115.TabIndex = 26;
-            this.radioButton115.TabStop = true;
-            this.radioButton115.Text = "MIXTO";
-            this.radioButton115.UseVisualStyleBackColor = false;
+            this.radioButton117.AutoSize = true;
+            this.radioButton117.BackColor = System.Drawing.Color.White;
+            this.radioButton117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.radioButton117.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.radioButton117.Location = new System.Drawing.Point(0, 7);
+            this.radioButton117.Name = "radioButton117";
+            this.radioButton117.Size = new System.Drawing.Size(117, 28);
+            this.radioButton117.TabIndex = 24;
+            this.radioButton117.TabStop = true;
+            this.radioButton117.Text = "VAINILLA";
+            this.radioButton117.UseVisualStyleBackColor = false;
             // 
             // pnlRadio_LConoR2
             // 
@@ -1076,21 +1019,6 @@
             this.pnlRadio_LConoR2.Name = "pnlRadio_LConoR2";
             this.pnlRadio_LConoR2.Size = new System.Drawing.Size(334, 35);
             this.pnlRadio_LConoR2.TabIndex = 33;
-            // 
-            // radioButton120
-            // 
-            this.radioButton120.AutoSize = true;
-            this.radioButton120.BackColor = System.Drawing.Color.White;
-            this.radioButton120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.radioButton120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton120.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton120.Location = new System.Drawing.Point(0, 4);
-            this.radioButton120.Name = "radioButton120";
-            this.radioButton120.Size = new System.Drawing.Size(155, 28);
-            this.radioButton120.TabIndex = 30;
-            this.radioButton120.TabStop = true;
-            this.radioButton120.Text = "CHOCOLATE";
-            this.radioButton120.UseVisualStyleBackColor = false;
             // 
             // radioButton119
             // 
@@ -1107,20 +1035,25 @@
             this.radioButton119.Text = "DULCE DE LECHE";
             this.radioButton119.UseVisualStyleBackColor = false;
             // 
-            // aceptarConoRelleno
+            // radioButton120
             // 
-            this.aceptarConoRelleno.Location = new System.Drawing.Point(450, 422);
-            this.aceptarConoRelleno.Name = "aceptarConoRelleno";
-            this.aceptarConoRelleno.Size = new System.Drawing.Size(75, 23);
-            this.aceptarConoRelleno.TabIndex = 34;
-            this.aceptarConoRelleno.Text = "Aceptar";
-            this.aceptarConoRelleno.UseVisualStyleBackColor = true;
-            this.aceptarConoRelleno.Click += new System.EventHandler(this.aceptarConoRelleno_Click);
+            this.radioButton120.AutoSize = true;
+            this.radioButton120.BackColor = System.Drawing.Color.White;
+            this.radioButton120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.radioButton120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton120.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.radioButton120.Location = new System.Drawing.Point(0, 4);
+            this.radioButton120.Name = "radioButton120";
+            this.radioButton120.Size = new System.Drawing.Size(155, 28);
+            this.radioButton120.TabIndex = 30;
+            this.radioButton120.TabStop = true;
+            this.radioButton120.Text = "CHOCOLATE";
+            this.radioButton120.UseVisualStyleBackColor = false;
             // 
             // PConoR
             // 
             this.PConoR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PConoR.Controls.Add(this.aceptarConoRelleno);
+            this.PConoR.Controls.Add(this.pictureBoxConoR);
             this.PConoR.Controls.Add(this.pnlRadio_LConoR2);
             this.PConoR.Controls.Add(this.pnlRadio_LConoR1);
             this.PConoR.Controls.Add(this.label98);
@@ -1135,11 +1068,91 @@
             this.PConoR.TabIndex = 30;
             this.PConoR.Visible = false;
             // 
+            // pictureBoxKingMix
+            // 
+            this.pictureBoxKingMix.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxKingMix.InitialImage = null;
+            this.pictureBoxKingMix.Location = new System.Drawing.Point(348, 342);
+            this.pictureBoxKingMix.Name = "pictureBoxKingMix";
+            this.pictureBoxKingMix.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxKingMix.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxKingMix.TabIndex = 43;
+            this.pictureBoxKingMix.TabStop = false;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblTotal.Location = new System.Drawing.Point(1062, 434);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(79, 25);
+            this.lblTotal.TabIndex = 52;
+            this.lblTotal.Text = "Total:";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblResultado.Location = new System.Drawing.Point(1137, 434);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(27, 25);
+            this.lblResultado.TabIndex = 53;
+            this.lblResultado.Text = "0";
+            // 
+            // pictureBoxSundae
+            // 
+            this.pictureBoxSundae.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxSundae.InitialImage = null;
+            this.pictureBoxSundae.Location = new System.Drawing.Point(343, 334);
+            this.pictureBoxSundae.Name = "pictureBoxSundae";
+            this.pictureBoxSundae.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxSundae.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxSundae.TabIndex = 44;
+            this.pictureBoxSundae.TabStop = false;
+            // 
+            // pictureBoxConoR
+            // 
+            this.pictureBoxConoR.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxConoR.InitialImage = null;
+            this.pictureBoxConoR.Location = new System.Drawing.Point(343, 387);
+            this.pictureBoxConoR.Name = "pictureBoxConoR";
+            this.pictureBoxConoR.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxConoR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxConoR.TabIndex = 44;
+            this.pictureBoxConoR.TabStop = false;
+            // 
+            // pictureBoxCono
+            // 
+            this.pictureBoxCono.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxCono.InitialImage = null;
+            this.pictureBoxCono.Location = new System.Drawing.Point(348, 328);
+            this.pictureBoxCono.Name = "pictureBoxCono";
+            this.pictureBoxCono.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxCono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCono.TabIndex = 44;
+            this.pictureBoxCono.TabStop = false;
+            // 
+            // pictureBoxCuc
+            // 
+            this.pictureBoxCuc.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxCuc.Location = new System.Drawing.Point(334, 339);
+            this.pictureBoxCuc.Name = "pictureBoxCuc";
+            this.pictureBoxCuc.Size = new System.Drawing.Size(169, 53);
+            this.pictureBoxCuc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCuc.TabIndex = 29;
+            this.pictureBoxCuc.TabStop = false;
+            // 
             // FormEmpleadoPostre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 780);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.BtnVolver);
             this.Controls.Add(this.dgvConfirmar);
             this.Controls.Add(this.rbCredito);
@@ -1153,18 +1166,16 @@
             this.Controls.Add(this.PBPostre);
             this.Controls.Add(this.LimpiarPedido);
             this.Controls.Add(this.PEfec);
-            this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.PBXCerrar);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.PCucu);
-            this.Controls.Add(this.PSundae);
-            this.Controls.Add(this.PConoR);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.PCono);
             this.Controls.Add(this.PPostre);
+            this.Controls.Add(this.PSundae);
+            this.Controls.Add(this.PConoR);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
@@ -1209,6 +1220,11 @@
             this.pnlRadio_LConoR2.PerformLayout();
             this.PConoR.ResumeLayout(false);
             this.PConoR.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConoR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1266,13 +1282,7 @@
         private System.Windows.Forms.Label label106;
         private System.Windows.Forms.Label LKmix;
         private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.Button aceptarKingMix;
-        private System.Windows.Forms.Button aceptarCucuruchon;
-        private System.Windows.Forms.Button aceptarSundae;
-        private System.Windows.Forms.Button aceptarCono;
         private System.Windows.Forms.PictureBox PBXCerrar;
-        private System.Windows.Forms.Label lblTotal;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.PictureBox PEfec;
         private System.Windows.Forms.PictureBox LimpiarPedido;
         private System.Windows.Forms.PictureBox btnConfirmar;
@@ -1297,8 +1307,14 @@
         private System.Windows.Forms.Panel pnlRadio_LConoR2;
         private System.Windows.Forms.RadioButton radioButton119;
         private System.Windows.Forms.RadioButton radioButton120;
-        private System.Windows.Forms.Button aceptarConoRelleno;
         private System.Windows.Forms.Panel PConoR;
+        private System.Windows.Forms.PictureBox pictureBoxKingMix;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBoxCono;
+        private System.Windows.Forms.PictureBox pictureBoxSundae;
+        private System.Windows.Forms.PictureBox pictureBoxConoR;
+        private System.Windows.Forms.PictureBox pictureBoxCuc;
     }
 
 

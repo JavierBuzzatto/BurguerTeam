@@ -25,9 +25,9 @@ namespace CapaUsuario
             //Pedido.cargarPedidos();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FormEmpleado());
+            Application.Run(new FormEmpleado());
             //Application.Run(new FormGerente());
-            Application.Run(new FormLogin());
+            //Application.Run(new FormLogin());
         }
     }
 }
