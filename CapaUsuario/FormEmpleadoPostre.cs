@@ -135,6 +135,11 @@ namespace CapaUsuario
 
         private void FormEmpleadoPostre_Load(object sender, EventArgs e)
         {
+            pictureBoxCuc.Size = new System.Drawing.Size(193, 56);
+            pictureBoxKingMix.Size = new System.Drawing.Size(193, 56);
+            pictureBoxCono.Size = new System.Drawing.Size(193, 56);
+            pictureBoxConoR.Size = new System.Drawing.Size(193, 56);
+            pictureBoxSundae.Size = new System.Drawing.Size(193, 56);
             // MessageBox.Show("xD");
             cmbBebidas.DataSource = Bebida.Bebidas;
             WindowState = FormWindowState.Maximized;

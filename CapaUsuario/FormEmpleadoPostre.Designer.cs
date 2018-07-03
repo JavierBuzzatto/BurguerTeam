@@ -46,6 +46,7 @@
             this.PBConoR = new System.Windows.Forms.PictureBox();
             this.PBCono = new System.Windows.Forms.PictureBox();
             this.PCono = new System.Windows.Forms.Panel();
+            this.pictureBoxCono = new System.Windows.Forms.PictureBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label94 = new System.Windows.Forms.Label();
             this.radioButton112 = new System.Windows.Forms.RadioButton();
@@ -55,6 +56,7 @@
             this.label90 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.PSundae = new System.Windows.Forms.Panel();
+            this.pictureBoxSundae = new System.Windows.Forms.PictureBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label100 = new System.Windows.Forms.Label();
             this.radioButton122 = new System.Windows.Forms.RadioButton();
@@ -64,6 +66,7 @@
             this.label102 = new System.Windows.Forms.Label();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.PCucu = new System.Windows.Forms.Panel();
+            this.pictureBoxCuc = new System.Windows.Forms.PictureBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.label99 = new System.Windows.Forms.Label();
             this.radioButton121 = new System.Windows.Forms.RadioButton();
@@ -72,6 +75,7 @@
             this.label104 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBoxKingMix = new System.Windows.Forms.PictureBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label105 = new System.Windows.Forms.Label();
             this.radioButton118 = new System.Windows.Forms.RadioButton();
@@ -105,13 +109,9 @@
             this.radioButton119 = new System.Windows.Forms.RadioButton();
             this.radioButton120 = new System.Windows.Forms.RadioButton();
             this.PConoR = new System.Windows.Forms.Panel();
-            this.pictureBoxKingMix = new System.Windows.Forms.PictureBox();
+            this.pictureBoxConoR = new System.Windows.Forms.PictureBox();
             this.lblTotal = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.pictureBoxSundae = new System.Windows.Forms.PictureBox();
-            this.pictureBoxConoR = new System.Windows.Forms.PictureBox();
-            this.pictureBoxCono = new System.Windows.Forms.PictureBox();
-            this.pictureBoxCuc = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBPostre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -123,12 +123,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBConoR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBCono)).BeginInit();
             this.PCono.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.PSundae.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.PCucu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBXCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PEfec)).BeginInit();
@@ -141,11 +145,7 @@
             this.pnlRadio_LConoR1.SuspendLayout();
             this.pnlRadio_LConoR2.SuspendLayout();
             this.PConoR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConoR)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -350,6 +350,17 @@
             this.PCono.TabIndex = 29;
             this.PCono.Visible = false;
             // 
+            // pictureBoxCono
+            // 
+            this.pictureBoxCono.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxCono.InitialImage = null;
+            this.pictureBoxCono.Location = new System.Drawing.Point(348, 328);
+            this.pictureBoxCono.Name = "pictureBoxCono";
+            this.pictureBoxCono.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxCono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCono.TabIndex = 44;
+            this.pictureBoxCono.TabStop = false;
+            // 
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(212, 293);
@@ -464,6 +475,17 @@
             this.PSundae.TabIndex = 32;
             this.PSundae.Visible = false;
             // 
+            // pictureBoxSundae
+            // 
+            this.pictureBoxSundae.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxSundae.InitialImage = null;
+            this.pictureBoxSundae.Location = new System.Drawing.Point(343, 334);
+            this.pictureBoxSundae.Name = "pictureBoxSundae";
+            this.pictureBoxSundae.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxSundae.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSundae.TabIndex = 44;
+            this.pictureBoxSundae.TabStop = false;
+            // 
             // textBox15
             // 
             this.textBox15.Location = new System.Drawing.Point(207, 298);
@@ -576,6 +598,16 @@
             this.PCucu.TabIndex = 33;
             this.PCucu.Visible = false;
             // 
+            // pictureBoxCuc
+            // 
+            this.pictureBoxCuc.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxCuc.Location = new System.Drawing.Point(334, 339);
+            this.pictureBoxCuc.Name = "pictureBoxCuc";
+            this.pictureBoxCuc.Size = new System.Drawing.Size(169, 53);
+            this.pictureBoxCuc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCuc.TabIndex = 29;
+            this.pictureBoxCuc.TabStop = false;
+            // 
             // textBox16
             // 
             this.textBox16.Location = new System.Drawing.Point(207, 298);
@@ -673,6 +705,17 @@
             this.panel2.TabIndex = 34;
             this.panel2.Visible = false;
             this.panel2.Click += new System.EventHandler(this.PBKMix_Click);
+            // 
+            // pictureBoxKingMix
+            // 
+            this.pictureBoxKingMix.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxKingMix.InitialImage = null;
+            this.pictureBoxKingMix.Location = new System.Drawing.Point(348, 342);
+            this.pictureBoxKingMix.Name = "pictureBoxKingMix";
+            this.pictureBoxKingMix.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxKingMix.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxKingMix.TabIndex = 43;
+            this.pictureBoxKingMix.TabStop = false;
             // 
             // textBox17
             // 
@@ -1068,16 +1111,16 @@
             this.PConoR.TabIndex = 30;
             this.PConoR.Visible = false;
             // 
-            // pictureBoxKingMix
+            // pictureBoxConoR
             // 
-            this.pictureBoxKingMix.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxKingMix.InitialImage = null;
-            this.pictureBoxKingMix.Location = new System.Drawing.Point(348, 342);
-            this.pictureBoxKingMix.Name = "pictureBoxKingMix";
-            this.pictureBoxKingMix.Size = new System.Drawing.Size(160, 56);
-            this.pictureBoxKingMix.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxKingMix.TabIndex = 43;
-            this.pictureBoxKingMix.TabStop = false;
+            this.pictureBoxConoR.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxConoR.InitialImage = null;
+            this.pictureBoxConoR.Location = new System.Drawing.Point(343, 387);
+            this.pictureBoxConoR.Name = "pictureBoxConoR";
+            this.pictureBoxConoR.Size = new System.Drawing.Size(160, 56);
+            this.pictureBoxConoR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxConoR.TabIndex = 44;
+            this.pictureBoxConoR.TabStop = false;
             // 
             // lblTotal
             // 
@@ -1102,49 +1145,6 @@
             this.lblResultado.Size = new System.Drawing.Size(27, 25);
             this.lblResultado.TabIndex = 53;
             this.lblResultado.Text = "0";
-            // 
-            // pictureBoxSundae
-            // 
-            this.pictureBoxSundae.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxSundae.InitialImage = null;
-            this.pictureBoxSundae.Location = new System.Drawing.Point(343, 334);
-            this.pictureBoxSundae.Name = "pictureBoxSundae";
-            this.pictureBoxSundae.Size = new System.Drawing.Size(160, 56);
-            this.pictureBoxSundae.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxSundae.TabIndex = 44;
-            this.pictureBoxSundae.TabStop = false;
-            // 
-            // pictureBoxConoR
-            // 
-            this.pictureBoxConoR.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxConoR.InitialImage = null;
-            this.pictureBoxConoR.Location = new System.Drawing.Point(343, 387);
-            this.pictureBoxConoR.Name = "pictureBoxConoR";
-            this.pictureBoxConoR.Size = new System.Drawing.Size(160, 56);
-            this.pictureBoxConoR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxConoR.TabIndex = 44;
-            this.pictureBoxConoR.TabStop = false;
-            // 
-            // pictureBoxCono
-            // 
-            this.pictureBoxCono.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxCono.InitialImage = null;
-            this.pictureBoxCono.Location = new System.Drawing.Point(348, 328);
-            this.pictureBoxCono.Name = "pictureBoxCono";
-            this.pictureBoxCono.Size = new System.Drawing.Size(160, 56);
-            this.pictureBoxCono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxCono.TabIndex = 44;
-            this.pictureBoxCono.TabStop = false;
-            // 
-            // pictureBoxCuc
-            // 
-            this.pictureBoxCuc.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxCuc.Location = new System.Drawing.Point(334, 339);
-            this.pictureBoxCuc.Name = "pictureBoxCuc";
-            this.pictureBoxCuc.Size = new System.Drawing.Size(169, 53);
-            this.pictureBoxCuc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxCuc.TabIndex = 29;
-            this.pictureBoxCuc.TabStop = false;
             // 
             // FormEmpleadoPostre
             // 
@@ -1196,15 +1196,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBCono)).EndInit();
             this.PCono.ResumeLayout(false);
             this.PCono.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.PSundae.ResumeLayout(false);
             this.PSundae.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.PCucu.ResumeLayout(false);
             this.PCucu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBXCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PEfec)).EndInit();
@@ -1220,11 +1224,7 @@
             this.pnlRadio_LConoR2.PerformLayout();
             this.PConoR.ResumeLayout(false);
             this.PConoR.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKingMix)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSundae)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConoR)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCono)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCuc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

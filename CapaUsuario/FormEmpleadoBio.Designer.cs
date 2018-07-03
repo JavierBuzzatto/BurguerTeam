@@ -35,6 +35,7 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.PBio = new System.Windows.Forms.Panel();
+            this.pictureBoxBio = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PBio3 = new System.Windows.Forms.Panel();
             this.radioButton49 = new System.Windows.Forms.RadioButton();
             this.radioButton50 = new System.Windows.Forms.RadioButton();
@@ -65,12 +66,12 @@
             this.rbDebito = new System.Windows.Forms.RadioButton();
             this.rbCredito = new System.Windows.Forms.RadioButton();
             this.dgvConfirmar = new System.Windows.Forms.DataGridView();
-            this.pictureBoxBio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBBio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.PBio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).BeginInit();
             this.pnlRadio_PBio3.SuspendLayout();
             this.pnlRadio_PBio2.SuspendLayout();
             this.pnlRadio_PBio1.SuspendLayout();
@@ -81,7 +82,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -159,6 +159,17 @@
             this.PBio.Name = "PBio";
             this.PBio.Size = new System.Drawing.Size(669, 540);
             this.PBio.TabIndex = 19;
+            // 
+            // pictureBoxBio
+            // 
+            this.pictureBoxBio.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxBio.InitialImage = null;
+            this.pictureBoxBio.Location = new System.Drawing.Point(329, 373);
+            this.pictureBoxBio.Name = "pictureBoxBio";
+            this.pictureBoxBio.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxBio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBio.TabIndex = 42;
+            this.pictureBoxBio.TabStop = false;
             // 
             // pnlRadio_PBio3
             // 
@@ -519,17 +530,6 @@
             this.dgvConfirmar.Size = new System.Drawing.Size(270, 179);
             this.dgvConfirmar.TabIndex = 50;
             // 
-            // pictureBoxBio
-            // 
-            this.pictureBoxBio.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxBio.InitialImage = null;
-            this.pictureBoxBio.Location = new System.Drawing.Point(474, 395);
-            this.pictureBoxBio.Name = "pictureBoxBio";
-            this.pictureBoxBio.Size = new System.Drawing.Size(160, 56);
-            this.pictureBoxBio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxBio.TabIndex = 42;
-            this.pictureBoxBio.TabStop = false;
-            // 
             // FormEmpleadoBio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -567,6 +567,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.PBio.ResumeLayout(false);
             this.PBio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).EndInit();
             this.pnlRadio_PBio3.ResumeLayout(false);
             this.pnlRadio_PBio3.PerformLayout();
             this.pnlRadio_PBio2.ResumeLayout(false);
@@ -580,7 +581,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnConfirmar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

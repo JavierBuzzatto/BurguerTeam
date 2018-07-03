@@ -92,6 +92,7 @@ namespace CapaUsuario
 
         private void FormEmpleadoBio_Load(object sender, EventArgs e)
         {
+            pictureBoxBio.Size = new System.Drawing.Size(193, 56);
             // MessageBox.Show("xD");
             cmbBebidas.DataSource = Bebida.Bebidas;
             WindowState = FormWindowState.Maximized;

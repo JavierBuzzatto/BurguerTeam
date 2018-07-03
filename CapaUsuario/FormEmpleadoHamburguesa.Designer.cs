@@ -48,7 +48,6 @@
             this.PBHNapo = new System.Windows.Forms.PictureBox();
             this.PBHam = new System.Windows.Forms.PictureBox();
             this.LHambS = new System.Windows.Forms.Panel();
-            this.aceptarHambConQueso = new System.Windows.Forms.Button();
             this.pnlRadio_PLHambS3 = new System.Windows.Forms.Panel();
             this.radioButton58 = new System.Windows.Forms.RadioButton();
             this.radioButton59 = new System.Windows.Forms.RadioButton();
@@ -67,7 +66,6 @@
             this.label62 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.PExtraB = new System.Windows.Forms.Panel();
-            this.aceptarExtra = new System.Windows.Forms.Button();
             this.pnlRadio_PExtraB4 = new System.Windows.Forms.Panel();
             this.radioButton65 = new System.Windows.Forms.RadioButton();
             this.radioButton66 = new System.Windows.Forms.RadioButton();
@@ -90,7 +88,6 @@
             this.label66 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.PNapo = new System.Windows.Forms.Panel();
-            this.aceptarNapolitano = new System.Windows.Forms.Button();
             this.pnlRadio_PNapo3 = new System.Windows.Forms.Panel();
             this.radioButton72 = new System.Windows.Forms.RadioButton();
             this.radioButton73 = new System.Windows.Forms.RadioButton();
@@ -109,7 +106,6 @@
             this.label70 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.PWhopper = new System.Windows.Forms.Panel();
-            this.aceptarWhopper = new System.Windows.Forms.Button();
             this.pnlRadio_PWhooper4 = new System.Windows.Forms.Panel();
             this.radioButton83 = new System.Windows.Forms.RadioButton();
             this.radioButton84 = new System.Windows.Forms.RadioButton();
@@ -133,7 +129,6 @@
             this.LWhopper = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.PLongC = new System.Windows.Forms.Panel();
-            this.aceptarLong = new System.Windows.Forms.Button();
             this.pnlRadio_PLongC4 = new System.Windows.Forms.Panel();
             this.radioButton94 = new System.Windows.Forms.RadioButton();
             this.radioButton95 = new System.Windows.Forms.RadioButton();
@@ -152,7 +147,6 @@
             this.label80 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.PStacker = new System.Windows.Forms.Panel();
-            this.aceptarStacker = new System.Windows.Forms.Button();
             this.pnlRadio_PStacker5 = new System.Windows.Forms.Panel();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.pnlRadio_PStacker4 = new System.Windows.Forms.Panel();
@@ -186,7 +180,6 @@
             this.label110 = new System.Windows.Forms.Label();
             this.PBLongc = new System.Windows.Forms.PictureBox();
             this.PLongBBQ = new System.Windows.Forms.Panel();
-            this.aceptarLongRodeo = new System.Windows.Forms.Button();
             this.pnlRadio_PLongBBQ4 = new System.Windows.Forms.Panel();
             this.radioButton131 = new System.Windows.Forms.RadioButton();
             this.radioButton132 = new System.Windows.Forms.RadioButton();
@@ -205,7 +198,6 @@
             this.label116 = new System.Windows.Forms.Label();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.PLongJQ = new System.Windows.Forms.Panel();
-            this.aceptarLongJYQ = new System.Windows.Forms.Button();
             this.pnlRadio_PLongJQ4 = new System.Windows.Forms.Panel();
             this.radioButton142 = new System.Windows.Forms.RadioButton();
             this.radioButton143 = new System.Windows.Forms.RadioButton();
@@ -224,7 +216,6 @@
             this.label122 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.PLongO = new System.Windows.Forms.Panel();
-            this.aceptarLongOnion = new System.Windows.Forms.Button();
             this.pnlRadio_PLongO4 = new System.Windows.Forms.Panel();
             this.radioButton153 = new System.Windows.Forms.RadioButton();
             this.radioButton154 = new System.Windows.Forms.RadioButton();
@@ -256,6 +247,15 @@
             this.BtnVolver = new System.Windows.Forms.PictureBox();
             this.lblTotal = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBoxLOC = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLJQ = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLBBQ = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBKS = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLong = new System.Windows.Forms.PictureBox();
+            this.pictureBoxWH = new System.Windows.Forms.PictureBox();
+            this.pictureBoxNapo = new System.Windows.Forms.PictureBox();
+            this.pictureBoxEx = new System.Windows.Forms.PictureBox();
+            this.pictureBoxHQ = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBHamb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -328,6 +328,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnVolver)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -542,7 +551,7 @@
             // LHambS
             // 
             this.LHambS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.LHambS.Controls.Add(this.aceptarHambConQueso);
+            this.LHambS.Controls.Add(this.pictureBoxHQ);
             this.LHambS.Controls.Add(this.pnlRadio_PLHambS3);
             this.LHambS.Controls.Add(this.pnlRadio_PLHambS2);
             this.LHambS.Controls.Add(this.pnlRadio_PLHambS1);
@@ -558,16 +567,6 @@
             this.LHambS.Size = new System.Drawing.Size(669, 540);
             this.LHambS.TabIndex = 24;
             this.LHambS.Visible = false;
-            // 
-            // aceptarHambConQueso
-            // 
-            this.aceptarHambConQueso.Location = new System.Drawing.Point(495, 445);
-            this.aceptarHambConQueso.Name = "aceptarHambConQueso";
-            this.aceptarHambConQueso.Size = new System.Drawing.Size(75, 23);
-            this.aceptarHambConQueso.TabIndex = 32;
-            this.aceptarHambConQueso.Text = "Aceptar";
-            this.aceptarHambConQueso.UseVisualStyleBackColor = true;
-            this.aceptarHambConQueso.Click += new System.EventHandler(this.aceptarHambConQueso_Click);
             // 
             // pnlRadio_PLHambS3
             // 
@@ -777,7 +776,7 @@
             // PExtraB
             // 
             this.PExtraB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PExtraB.Controls.Add(this.aceptarExtra);
+            this.PExtraB.Controls.Add(this.pictureBoxEx);
             this.PExtraB.Controls.Add(this.pnlRadio_PExtraB4);
             this.PExtraB.Controls.Add(this.pnlRadio_PExtraB3);
             this.PExtraB.Controls.Add(this.pnlRadio_PExtraB2);
@@ -795,16 +794,6 @@
             this.PExtraB.Size = new System.Drawing.Size(669, 540);
             this.PExtraB.TabIndex = 25;
             this.PExtraB.Visible = false;
-            // 
-            // aceptarExtra
-            // 
-            this.aceptarExtra.Location = new System.Drawing.Point(489, 468);
-            this.aceptarExtra.Name = "aceptarExtra";
-            this.aceptarExtra.Size = new System.Drawing.Size(75, 23);
-            this.aceptarExtra.TabIndex = 33;
-            this.aceptarExtra.Text = "Aceptar";
-            this.aceptarExtra.UseVisualStyleBackColor = true;
-            this.aceptarExtra.Click += new System.EventHandler(this.aceptarExtra_Click);
             // 
             // pnlRadio_PExtraB4
             // 
@@ -1064,7 +1053,7 @@
             // PNapo
             // 
             this.PNapo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PNapo.Controls.Add(this.aceptarNapolitano);
+            this.PNapo.Controls.Add(this.pictureBoxNapo);
             this.PNapo.Controls.Add(this.pnlRadio_PNapo3);
             this.PNapo.Controls.Add(this.pnlRadio_PNapo2);
             this.PNapo.Controls.Add(this.pnlRadio_PNapo1);
@@ -1080,16 +1069,6 @@
             this.PNapo.Size = new System.Drawing.Size(669, 540);
             this.PNapo.TabIndex = 26;
             this.PNapo.Visible = false;
-            // 
-            // aceptarNapolitano
-            // 
-            this.aceptarNapolitano.Location = new System.Drawing.Point(495, 446);
-            this.aceptarNapolitano.Name = "aceptarNapolitano";
-            this.aceptarNapolitano.Size = new System.Drawing.Size(75, 23);
-            this.aceptarNapolitano.TabIndex = 32;
-            this.aceptarNapolitano.Text = "Aceptar";
-            this.aceptarNapolitano.UseVisualStyleBackColor = true;
-            this.aceptarNapolitano.Click += new System.EventHandler(this.aceptarNapolitano_Click);
             // 
             // pnlRadio_PNapo3
             // 
@@ -1299,7 +1278,7 @@
             // PWhopper
             // 
             this.PWhopper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PWhopper.Controls.Add(this.aceptarWhopper);
+            this.PWhopper.Controls.Add(this.pictureBoxWH);
             this.PWhopper.Controls.Add(this.pnlRadio_PWhooper4);
             this.PWhopper.Controls.Add(this.pnlRadio_PWhooper3);
             this.PWhopper.Controls.Add(this.pnlRadio_PWhooper2);
@@ -1317,16 +1296,6 @@
             this.PWhopper.Size = new System.Drawing.Size(669, 540);
             this.PWhopper.TabIndex = 26;
             this.PWhopper.Visible = false;
-            // 
-            // aceptarWhopper
-            // 
-            this.aceptarWhopper.Location = new System.Drawing.Point(507, 468);
-            this.aceptarWhopper.Name = "aceptarWhopper";
-            this.aceptarWhopper.Size = new System.Drawing.Size(75, 23);
-            this.aceptarWhopper.TabIndex = 33;
-            this.aceptarWhopper.Text = "Aceptar";
-            this.aceptarWhopper.UseVisualStyleBackColor = true;
-            this.aceptarWhopper.Click += new System.EventHandler(this.aceptarWhopper_Click);
             // 
             // pnlRadio_PWhooper4
             // 
@@ -1603,7 +1572,7 @@
             // PLongC
             // 
             this.PLongC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PLongC.Controls.Add(this.aceptarLong);
+            this.PLongC.Controls.Add(this.pictureBoxLong);
             this.PLongC.Controls.Add(this.pnlRadio_PLongC4);
             this.PLongC.Controls.Add(this.pnlRadio_PLongC3);
             this.PLongC.Controls.Add(this.pnlRadio_PLongC1);
@@ -1619,16 +1588,6 @@
             this.PLongC.Size = new System.Drawing.Size(669, 540);
             this.PLongC.TabIndex = 27;
             this.PLongC.Visible = false;
-            // 
-            // aceptarLong
-            // 
-            this.aceptarLong.Location = new System.Drawing.Point(450, 451);
-            this.aceptarLong.Name = "aceptarLong";
-            this.aceptarLong.Size = new System.Drawing.Size(75, 22);
-            this.aceptarLong.TabIndex = 34;
-            this.aceptarLong.Text = "Aceptar";
-            this.aceptarLong.UseVisualStyleBackColor = true;
-            this.aceptarLong.Click += new System.EventHandler(this.aceptarLong_Click);
             // 
             // pnlRadio_PLongC4
             // 
@@ -1838,7 +1797,7 @@
             // PStacker
             // 
             this.PStacker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PStacker.Controls.Add(this.aceptarStacker);
+            this.PStacker.Controls.Add(this.pictureBoxBKS);
             this.PStacker.Controls.Add(this.pnlRadio_PStacker5);
             this.PStacker.Controls.Add(this.pnlRadio_PStacker4);
             this.PStacker.Controls.Add(this.pnlRadio_PStacker3);
@@ -1856,16 +1815,6 @@
             this.PStacker.Size = new System.Drawing.Size(669, 540);
             this.PStacker.TabIndex = 28;
             this.PStacker.Visible = false;
-            // 
-            // aceptarStacker
-            // 
-            this.aceptarStacker.Location = new System.Drawing.Point(489, 451);
-            this.aceptarStacker.Name = "aceptarStacker";
-            this.aceptarStacker.Size = new System.Drawing.Size(75, 23);
-            this.aceptarStacker.TabIndex = 34;
-            this.aceptarStacker.Text = "Aceptar";
-            this.aceptarStacker.UseVisualStyleBackColor = true;
-            this.aceptarStacker.Click += new System.EventHandler(this.aceptarStacker_Click);
             // 
             // pnlRadio_PStacker5
             // 
@@ -2254,7 +2203,7 @@
             // PLongBBQ
             // 
             this.PLongBBQ.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PLongBBQ.Controls.Add(this.aceptarLongRodeo);
+            this.PLongBBQ.Controls.Add(this.pictureBoxLBBQ);
             this.PLongBBQ.Controls.Add(this.pnlRadio_PLongBBQ4);
             this.PLongBBQ.Controls.Add(this.pnlRadio_PLongBBQ3);
             this.PLongBBQ.Controls.Add(this.pnlRadio_PLongBBQ1);
@@ -2270,16 +2219,6 @@
             this.PLongBBQ.Size = new System.Drawing.Size(669, 540);
             this.PLongBBQ.TabIndex = 30;
             this.PLongBBQ.Visible = false;
-            // 
-            // aceptarLongRodeo
-            // 
-            this.aceptarLongRodeo.Location = new System.Drawing.Point(443, 468);
-            this.aceptarLongRodeo.Name = "aceptarLongRodeo";
-            this.aceptarLongRodeo.Size = new System.Drawing.Size(75, 23);
-            this.aceptarLongRodeo.TabIndex = 34;
-            this.aceptarLongRodeo.Text = "Aceptar";
-            this.aceptarLongRodeo.UseVisualStyleBackColor = true;
-            this.aceptarLongRodeo.Click += new System.EventHandler(this.aceptarLongRodeo_Click);
             // 
             // pnlRadio_PLongBBQ4
             // 
@@ -2491,7 +2430,7 @@
             // PLongJQ
             // 
             this.PLongJQ.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PLongJQ.Controls.Add(this.aceptarLongJYQ);
+            this.PLongJQ.Controls.Add(this.pictureBoxLJQ);
             this.PLongJQ.Controls.Add(this.pnlRadio_PLongJQ4);
             this.PLongJQ.Controls.Add(this.pnlRadio_PLongJQ3);
             this.PLongJQ.Controls.Add(this.pnlRadio_PLongJQ1);
@@ -2507,16 +2446,6 @@
             this.PLongJQ.Size = new System.Drawing.Size(669, 540);
             this.PLongJQ.TabIndex = 31;
             this.PLongJQ.Visible = false;
-            // 
-            // aceptarLongJYQ
-            // 
-            this.aceptarLongJYQ.Location = new System.Drawing.Point(403, 401);
-            this.aceptarLongJYQ.Name = "aceptarLongJYQ";
-            this.aceptarLongJYQ.Size = new System.Drawing.Size(75, 23);
-            this.aceptarLongJYQ.TabIndex = 34;
-            this.aceptarLongJYQ.Text = "Aceptar";
-            this.aceptarLongJYQ.UseVisualStyleBackColor = true;
-            this.aceptarLongJYQ.Click += new System.EventHandler(this.aceptarLongJYQ_Click);
             // 
             // pnlRadio_PLongJQ4
             // 
@@ -2726,7 +2655,7 @@
             // PLongO
             // 
             this.PLongO.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.PLongO.Controls.Add(this.aceptarLongOnion);
+            this.PLongO.Controls.Add(this.pictureBoxLOC);
             this.PLongO.Controls.Add(this.pnlRadio_PLongO4);
             this.PLongO.Controls.Add(this.pnlRadio_PLongO3);
             this.PLongO.Controls.Add(this.pnlRadio_PLongO1);
@@ -2742,16 +2671,6 @@
             this.PLongO.Size = new System.Drawing.Size(669, 540);
             this.PLongO.TabIndex = 32;
             this.PLongO.Visible = false;
-            // 
-            // aceptarLongOnion
-            // 
-            this.aceptarLongOnion.Location = new System.Drawing.Point(443, 422);
-            this.aceptarLongOnion.Name = "aceptarLongOnion";
-            this.aceptarLongOnion.Size = new System.Drawing.Size(75, 23);
-            this.aceptarLongOnion.TabIndex = 34;
-            this.aceptarLongOnion.Text = "Aceptar";
-            this.aceptarLongOnion.UseVisualStyleBackColor = true;
-            this.aceptarLongOnion.Click += new System.EventHandler(this.aceptarLongOnion_Click);
             // 
             // pnlRadio_PLongO4
             // 
@@ -3125,6 +3044,105 @@
             this.lblResultado.TabIndex = 54;
             this.lblResultado.Text = "0";
             // 
+            // pictureBoxLOC
+            // 
+            this.pictureBoxLOC.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLOC.InitialImage = null;
+            this.pictureBoxLOC.Location = new System.Drawing.Point(389, 394);
+            this.pictureBoxLOC.Name = "pictureBoxLOC";
+            this.pictureBoxLOC.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLOC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLOC.TabIndex = 43;
+            this.pictureBoxLOC.TabStop = false;
+            // 
+            // pictureBoxLJQ
+            // 
+            this.pictureBoxLJQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLJQ.InitialImage = null;
+            this.pictureBoxLJQ.Location = new System.Drawing.Point(371, 385);
+            this.pictureBoxLJQ.Name = "pictureBoxLJQ";
+            this.pictureBoxLJQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLJQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLJQ.TabIndex = 43;
+            this.pictureBoxLJQ.TabStop = false;
+            // 
+            // pictureBoxLBBQ
+            // 
+            this.pictureBoxLBBQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLBBQ.InitialImage = null;
+            this.pictureBoxLBBQ.Location = new System.Drawing.Point(389, 380);
+            this.pictureBoxLBBQ.Name = "pictureBoxLBBQ";
+            this.pictureBoxLBBQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLBBQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLBBQ.TabIndex = 43;
+            this.pictureBoxLBBQ.TabStop = false;
+            // 
+            // pictureBoxBKS
+            // 
+            this.pictureBoxBKS.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxBKS.InitialImage = null;
+            this.pictureBoxBKS.Location = new System.Drawing.Point(324, 428);
+            this.pictureBoxBKS.Name = "pictureBoxBKS";
+            this.pictureBoxBKS.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxBKS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBKS.TabIndex = 43;
+            this.pictureBoxBKS.TabStop = false;
+            // 
+            // pictureBoxLong
+            // 
+            this.pictureBoxLong.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLong.InitialImage = null;
+            this.pictureBoxLong.Location = new System.Drawing.Point(329, 387);
+            this.pictureBoxLong.Name = "pictureBoxLong";
+            this.pictureBoxLong.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLong.TabIndex = 43;
+            this.pictureBoxLong.TabStop = false;
+            // 
+            // pictureBoxWH
+            // 
+            this.pictureBoxWH.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxWH.InitialImage = null;
+            this.pictureBoxWH.Location = new System.Drawing.Point(315, 421);
+            this.pictureBoxWH.Name = "pictureBoxWH";
+            this.pictureBoxWH.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxWH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxWH.TabIndex = 43;
+            this.pictureBoxWH.TabStop = false;
+            // 
+            // pictureBoxNapo
+            // 
+            this.pictureBoxNapo.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxNapo.InitialImage = null;
+            this.pictureBoxNapo.Location = new System.Drawing.Point(316, 389);
+            this.pictureBoxNapo.Name = "pictureBoxNapo";
+            this.pictureBoxNapo.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxNapo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNapo.TabIndex = 43;
+            this.pictureBoxNapo.TabStop = false;
+            // 
+            // pictureBoxEx
+            // 
+            this.pictureBoxEx.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxEx.InitialImage = null;
+            this.pictureBoxEx.Location = new System.Drawing.Point(315, 417);
+            this.pictureBoxEx.Name = "pictureBoxEx";
+            this.pictureBoxEx.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxEx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEx.TabIndex = 43;
+            this.pictureBoxEx.TabStop = false;
+            // 
+            // pictureBoxHQ
+            // 
+            this.pictureBoxHQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxHQ.InitialImage = null;
+            this.pictureBoxHQ.Location = new System.Drawing.Point(316, 396);
+            this.pictureBoxHQ.Name = "pictureBoxHQ";
+            this.pictureBoxHQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxHQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxHQ.TabIndex = 43;
+            this.pictureBoxHQ.TabStop = false;
+            // 
             // FormEmpleadoHamburguesa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3149,6 +3167,7 @@
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PHamb);
             this.Controls.Add(this.PLongO);
             this.Controls.Add(this.PLongJQ);
             this.Controls.Add(this.PLongBBQ);
@@ -3159,7 +3178,6 @@
             this.Controls.Add(this.PNapo);
             this.Controls.Add(this.PExtraB);
             this.Controls.Add(this.LHambS);
-            this.Controls.Add(this.PHamb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
@@ -3281,6 +3299,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnVolver)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3492,15 +3519,6 @@
         private System.Windows.Forms.Panel pnlRadio_PLongO4;
         private System.Windows.Forms.Panel pnlRadio_PLongO3;
         private System.Windows.Forms.Panel pnlRadio_PLongO1;
-        private System.Windows.Forms.Button aceptarWhopper;
-        private System.Windows.Forms.Button aceptarNapolitano;
-        private System.Windows.Forms.Button aceptarExtra;
-        private System.Windows.Forms.Button aceptarHambConQueso;
-        private System.Windows.Forms.Button aceptarLongOnion;
-        private System.Windows.Forms.Button aceptarLongJYQ;
-        private System.Windows.Forms.Button aceptarLongRodeo;
-        private System.Windows.Forms.Button aceptarStacker;
-        private System.Windows.Forms.Button aceptarLong;
         private System.Windows.Forms.PictureBox PBXCerrar;
         private System.Windows.Forms.PictureBox PEfec;
         private System.Windows.Forms.PictureBox LimpiarPedido;
@@ -3515,6 +3533,15 @@
         private System.Windows.Forms.PictureBox BtnVolver;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBoxHQ;
+        private System.Windows.Forms.PictureBox pictureBoxEx;
+        private System.Windows.Forms.PictureBox pictureBoxNapo;
+        private System.Windows.Forms.PictureBox pictureBoxWH;
+        private System.Windows.Forms.PictureBox pictureBoxLong;
+        private System.Windows.Forms.PictureBox pictureBoxBKS;
+        private System.Windows.Forms.PictureBox pictureBoxLBBQ;
+        private System.Windows.Forms.PictureBox pictureBoxLJQ;
+        private System.Windows.Forms.PictureBox pictureBoxLOC;
     }
 
 
