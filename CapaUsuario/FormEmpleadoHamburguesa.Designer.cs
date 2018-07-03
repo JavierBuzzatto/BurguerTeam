@@ -48,6 +48,7 @@
             this.PBHNapo = new System.Windows.Forms.PictureBox();
             this.PBHam = new System.Windows.Forms.PictureBox();
             this.LHambS = new System.Windows.Forms.Panel();
+            this.pictureBoxHQ = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PLHambS3 = new System.Windows.Forms.Panel();
             this.radioButton58 = new System.Windows.Forms.RadioButton();
             this.radioButton59 = new System.Windows.Forms.RadioButton();
@@ -66,6 +67,7 @@
             this.label62 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.PExtraB = new System.Windows.Forms.Panel();
+            this.pictureBoxEx = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PExtraB4 = new System.Windows.Forms.Panel();
             this.radioButton65 = new System.Windows.Forms.RadioButton();
             this.radioButton66 = new System.Windows.Forms.RadioButton();
@@ -88,6 +90,7 @@
             this.label66 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.PNapo = new System.Windows.Forms.Panel();
+            this.pictureBoxNapo = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PNapo3 = new System.Windows.Forms.Panel();
             this.radioButton72 = new System.Windows.Forms.RadioButton();
             this.radioButton73 = new System.Windows.Forms.RadioButton();
@@ -106,6 +109,7 @@
             this.label70 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.PWhopper = new System.Windows.Forms.Panel();
+            this.pictureBoxWH = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PWhooper4 = new System.Windows.Forms.Panel();
             this.radioButton83 = new System.Windows.Forms.RadioButton();
             this.radioButton84 = new System.Windows.Forms.RadioButton();
@@ -129,6 +133,7 @@
             this.LWhopper = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.PLongC = new System.Windows.Forms.Panel();
+            this.pictureBoxLong = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PLongC4 = new System.Windows.Forms.Panel();
             this.radioButton94 = new System.Windows.Forms.RadioButton();
             this.radioButton95 = new System.Windows.Forms.RadioButton();
@@ -147,6 +152,7 @@
             this.label80 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.PStacker = new System.Windows.Forms.Panel();
+            this.pictureBoxBKS = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PStacker5 = new System.Windows.Forms.Panel();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.pnlRadio_PStacker4 = new System.Windows.Forms.Panel();
@@ -180,6 +186,7 @@
             this.label110 = new System.Windows.Forms.Label();
             this.PBLongc = new System.Windows.Forms.PictureBox();
             this.PLongBBQ = new System.Windows.Forms.Panel();
+            this.pictureBoxLBBQ = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PLongBBQ4 = new System.Windows.Forms.Panel();
             this.radioButton131 = new System.Windows.Forms.RadioButton();
             this.radioButton132 = new System.Windows.Forms.RadioButton();
@@ -198,6 +205,7 @@
             this.label116 = new System.Windows.Forms.Label();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.PLongJQ = new System.Windows.Forms.Panel();
+            this.pictureBoxLJQ = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PLongJQ4 = new System.Windows.Forms.Panel();
             this.radioButton142 = new System.Windows.Forms.RadioButton();
             this.radioButton143 = new System.Windows.Forms.RadioButton();
@@ -216,6 +224,7 @@
             this.label122 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.PLongO = new System.Windows.Forms.Panel();
+            this.pictureBoxLOC = new System.Windows.Forms.PictureBox();
             this.pnlRadio_PLongO4 = new System.Windows.Forms.Panel();
             this.radioButton153 = new System.Windows.Forms.RadioButton();
             this.radioButton154 = new System.Windows.Forms.RadioButton();
@@ -247,15 +256,6 @@
             this.BtnVolver = new System.Windows.Forms.PictureBox();
             this.lblTotal = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.pictureBoxLOC = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLJQ = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLBBQ = new System.Windows.Forms.PictureBox();
-            this.pictureBoxBKS = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLong = new System.Windows.Forms.PictureBox();
-            this.pictureBoxWH = new System.Windows.Forms.PictureBox();
-            this.pictureBoxNapo = new System.Windows.Forms.PictureBox();
-            this.pictureBoxEx = new System.Windows.Forms.PictureBox();
-            this.pictureBoxHQ = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBHamb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -268,33 +268,39 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBHNapo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBHam)).BeginInit();
             this.LHambS.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).BeginInit();
             this.pnlRadio_PLHambS3.SuspendLayout();
             this.pnlRadio_PLHambS2.SuspendLayout();
             this.pnlRadio_PLHambS1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.PExtraB.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).BeginInit();
             this.pnlRadio_PExtraB4.SuspendLayout();
             this.pnlRadio_PExtraB3.SuspendLayout();
             this.pnlRadio_PExtraB2.SuspendLayout();
             this.pnlRadio_PExtraB1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.PNapo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).BeginInit();
             this.pnlRadio_PNapo3.SuspendLayout();
             this.pnlRadio_PNapo2.SuspendLayout();
             this.pnlRadio_PNapo1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.PWhopper.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).BeginInit();
             this.pnlRadio_PWhooper4.SuspendLayout();
             this.pnlRadio_PWhooper3.SuspendLayout();
             this.pnlRadio_PWhooper2.SuspendLayout();
             this.pnlRadio_PWhooper1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.PLongC.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).BeginInit();
             this.pnlRadio_PLongC4.SuspendLayout();
             this.pnlRadio_PLongC3.SuspendLayout();
             this.pnlRadio_PLongC1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.PStacker.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).BeginInit();
             this.pnlRadio_PStacker5.SuspendLayout();
             this.pnlRadio_PStacker4.SuspendLayout();
             this.pnlRadio_PStacker3.SuspendLayout();
@@ -307,16 +313,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBLongBBQ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBLongc)).BeginInit();
             this.PLongBBQ.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).BeginInit();
             this.pnlRadio_PLongBBQ4.SuspendLayout();
             this.pnlRadio_PLongBBQ3.SuspendLayout();
             this.pnlRadio_PLongBBQ1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.PLongJQ.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).BeginInit();
             this.pnlRadio_PLongJQ4.SuspendLayout();
             this.pnlRadio_PLongJQ3.SuspendLayout();
             this.pnlRadio_PLongJQ1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.PLongO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).BeginInit();
             this.pnlRadio_PLongO4.SuspendLayout();
             this.pnlRadio_PLongO3.SuspendLayout();
             this.pnlRadio_PLongO1.SuspendLayout();
@@ -328,15 +337,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnVolver)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -568,6 +568,17 @@
             this.LHambS.TabIndex = 24;
             this.LHambS.Visible = false;
             // 
+            // pictureBoxHQ
+            // 
+            this.pictureBoxHQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxHQ.InitialImage = null;
+            this.pictureBoxHQ.Location = new System.Drawing.Point(316, 396);
+            this.pictureBoxHQ.Name = "pictureBoxHQ";
+            this.pictureBoxHQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxHQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxHQ.TabIndex = 43;
+            this.pictureBoxHQ.TabStop = false;
+            // 
             // pnlRadio_PLHambS3
             // 
             this.pnlRadio_PLHambS3.Controls.Add(this.radioButton58);
@@ -794,6 +805,17 @@
             this.PExtraB.Size = new System.Drawing.Size(669, 540);
             this.PExtraB.TabIndex = 25;
             this.PExtraB.Visible = false;
+            // 
+            // pictureBoxEx
+            // 
+            this.pictureBoxEx.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxEx.InitialImage = null;
+            this.pictureBoxEx.Location = new System.Drawing.Point(315, 417);
+            this.pictureBoxEx.Name = "pictureBoxEx";
+            this.pictureBoxEx.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxEx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEx.TabIndex = 43;
+            this.pictureBoxEx.TabStop = false;
             // 
             // pnlRadio_PExtraB4
             // 
@@ -1070,6 +1092,17 @@
             this.PNapo.TabIndex = 26;
             this.PNapo.Visible = false;
             // 
+            // pictureBoxNapo
+            // 
+            this.pictureBoxNapo.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxNapo.InitialImage = null;
+            this.pictureBoxNapo.Location = new System.Drawing.Point(316, 389);
+            this.pictureBoxNapo.Name = "pictureBoxNapo";
+            this.pictureBoxNapo.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxNapo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNapo.TabIndex = 43;
+            this.pictureBoxNapo.TabStop = false;
+            // 
             // pnlRadio_PNapo3
             // 
             this.pnlRadio_PNapo3.Controls.Add(this.radioButton72);
@@ -1296,6 +1329,17 @@
             this.PWhopper.Size = new System.Drawing.Size(669, 540);
             this.PWhopper.TabIndex = 26;
             this.PWhopper.Visible = false;
+            // 
+            // pictureBoxWH
+            // 
+            this.pictureBoxWH.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxWH.InitialImage = null;
+            this.pictureBoxWH.Location = new System.Drawing.Point(315, 421);
+            this.pictureBoxWH.Name = "pictureBoxWH";
+            this.pictureBoxWH.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxWH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxWH.TabIndex = 43;
+            this.pictureBoxWH.TabStop = false;
             // 
             // pnlRadio_PWhooper4
             // 
@@ -1589,6 +1633,17 @@
             this.PLongC.TabIndex = 27;
             this.PLongC.Visible = false;
             // 
+            // pictureBoxLong
+            // 
+            this.pictureBoxLong.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLong.InitialImage = null;
+            this.pictureBoxLong.Location = new System.Drawing.Point(329, 387);
+            this.pictureBoxLong.Name = "pictureBoxLong";
+            this.pictureBoxLong.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLong.TabIndex = 43;
+            this.pictureBoxLong.TabStop = false;
+            // 
             // pnlRadio_PLongC4
             // 
             this.pnlRadio_PLongC4.Controls.Add(this.radioButton94);
@@ -1815,6 +1870,17 @@
             this.PStacker.Size = new System.Drawing.Size(669, 540);
             this.PStacker.TabIndex = 28;
             this.PStacker.Visible = false;
+            // 
+            // pictureBoxBKS
+            // 
+            this.pictureBoxBKS.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxBKS.InitialImage = null;
+            this.pictureBoxBKS.Location = new System.Drawing.Point(324, 428);
+            this.pictureBoxBKS.Name = "pictureBoxBKS";
+            this.pictureBoxBKS.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxBKS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBKS.TabIndex = 43;
+            this.pictureBoxBKS.TabStop = false;
             // 
             // pnlRadio_PStacker5
             // 
@@ -2220,6 +2286,17 @@
             this.PLongBBQ.TabIndex = 30;
             this.PLongBBQ.Visible = false;
             // 
+            // pictureBoxLBBQ
+            // 
+            this.pictureBoxLBBQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLBBQ.InitialImage = null;
+            this.pictureBoxLBBQ.Location = new System.Drawing.Point(389, 380);
+            this.pictureBoxLBBQ.Name = "pictureBoxLBBQ";
+            this.pictureBoxLBBQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLBBQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLBBQ.TabIndex = 43;
+            this.pictureBoxLBBQ.TabStop = false;
+            // 
             // pnlRadio_PLongBBQ4
             // 
             this.pnlRadio_PLongBBQ4.Controls.Add(this.radioButton131);
@@ -2447,6 +2524,17 @@
             this.PLongJQ.TabIndex = 31;
             this.PLongJQ.Visible = false;
             // 
+            // pictureBoxLJQ
+            // 
+            this.pictureBoxLJQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLJQ.InitialImage = null;
+            this.pictureBoxLJQ.Location = new System.Drawing.Point(371, 385);
+            this.pictureBoxLJQ.Name = "pictureBoxLJQ";
+            this.pictureBoxLJQ.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLJQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLJQ.TabIndex = 43;
+            this.pictureBoxLJQ.TabStop = false;
+            // 
             // pnlRadio_PLongJQ4
             // 
             this.pnlRadio_PLongJQ4.Controls.Add(this.radioButton142);
@@ -2671,6 +2759,17 @@
             this.PLongO.Size = new System.Drawing.Size(669, 540);
             this.PLongO.TabIndex = 32;
             this.PLongO.Visible = false;
+            // 
+            // pictureBoxLOC
+            // 
+            this.pictureBoxLOC.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
+            this.pictureBoxLOC.InitialImage = null;
+            this.pictureBoxLOC.Location = new System.Drawing.Point(389, 394);
+            this.pictureBoxLOC.Name = "pictureBoxLOC";
+            this.pictureBoxLOC.Size = new System.Drawing.Size(193, 56);
+            this.pictureBoxLOC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLOC.TabIndex = 43;
+            this.pictureBoxLOC.TabStop = false;
             // 
             // pnlRadio_PLongO4
             // 
@@ -2954,7 +3053,10 @@
             // dgvCombo
             // 
             this.dgvCombo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvCombo.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvCombo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCombo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCombo.ColumnHeadersVisible = false;
             this.dgvCombo.Location = new System.Drawing.Point(1018, 164);
             this.dgvCombo.Name = "dgvCombo";
             this.dgvCombo.Size = new System.Drawing.Size(270, 179);
@@ -3003,7 +3105,10 @@
             // dgvConfirmar
             // 
             this.dgvConfirmar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvConfirmar.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvConfirmar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvConfirmar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConfirmar.ColumnHeadersVisible = false;
             this.dgvConfirmar.Location = new System.Drawing.Point(1018, 520);
             this.dgvConfirmar.Name = "dgvConfirmar";
             this.dgvConfirmar.Size = new System.Drawing.Size(270, 179);
@@ -3043,105 +3148,6 @@
             this.lblResultado.Size = new System.Drawing.Size(27, 25);
             this.lblResultado.TabIndex = 54;
             this.lblResultado.Text = "0";
-            // 
-            // pictureBoxLOC
-            // 
-            this.pictureBoxLOC.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxLOC.InitialImage = null;
-            this.pictureBoxLOC.Location = new System.Drawing.Point(389, 394);
-            this.pictureBoxLOC.Name = "pictureBoxLOC";
-            this.pictureBoxLOC.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxLOC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLOC.TabIndex = 43;
-            this.pictureBoxLOC.TabStop = false;
-            // 
-            // pictureBoxLJQ
-            // 
-            this.pictureBoxLJQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxLJQ.InitialImage = null;
-            this.pictureBoxLJQ.Location = new System.Drawing.Point(371, 385);
-            this.pictureBoxLJQ.Name = "pictureBoxLJQ";
-            this.pictureBoxLJQ.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxLJQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLJQ.TabIndex = 43;
-            this.pictureBoxLJQ.TabStop = false;
-            // 
-            // pictureBoxLBBQ
-            // 
-            this.pictureBoxLBBQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxLBBQ.InitialImage = null;
-            this.pictureBoxLBBQ.Location = new System.Drawing.Point(389, 380);
-            this.pictureBoxLBBQ.Name = "pictureBoxLBBQ";
-            this.pictureBoxLBBQ.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxLBBQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLBBQ.TabIndex = 43;
-            this.pictureBoxLBBQ.TabStop = false;
-            // 
-            // pictureBoxBKS
-            // 
-            this.pictureBoxBKS.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxBKS.InitialImage = null;
-            this.pictureBoxBKS.Location = new System.Drawing.Point(324, 428);
-            this.pictureBoxBKS.Name = "pictureBoxBKS";
-            this.pictureBoxBKS.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxBKS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxBKS.TabIndex = 43;
-            this.pictureBoxBKS.TabStop = false;
-            // 
-            // pictureBoxLong
-            // 
-            this.pictureBoxLong.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxLong.InitialImage = null;
-            this.pictureBoxLong.Location = new System.Drawing.Point(329, 387);
-            this.pictureBoxLong.Name = "pictureBoxLong";
-            this.pictureBoxLong.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxLong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLong.TabIndex = 43;
-            this.pictureBoxLong.TabStop = false;
-            // 
-            // pictureBoxWH
-            // 
-            this.pictureBoxWH.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxWH.InitialImage = null;
-            this.pictureBoxWH.Location = new System.Drawing.Point(315, 421);
-            this.pictureBoxWH.Name = "pictureBoxWH";
-            this.pictureBoxWH.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxWH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxWH.TabIndex = 43;
-            this.pictureBoxWH.TabStop = false;
-            // 
-            // pictureBoxNapo
-            // 
-            this.pictureBoxNapo.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxNapo.InitialImage = null;
-            this.pictureBoxNapo.Location = new System.Drawing.Point(316, 389);
-            this.pictureBoxNapo.Name = "pictureBoxNapo";
-            this.pictureBoxNapo.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxNapo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxNapo.TabIndex = 43;
-            this.pictureBoxNapo.TabStop = false;
-            // 
-            // pictureBoxEx
-            // 
-            this.pictureBoxEx.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxEx.InitialImage = null;
-            this.pictureBoxEx.Location = new System.Drawing.Point(315, 417);
-            this.pictureBoxEx.Name = "pictureBoxEx";
-            this.pictureBoxEx.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxEx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxEx.TabIndex = 43;
-            this.pictureBoxEx.TabStop = false;
-            // 
-            // pictureBoxHQ
-            // 
-            this.pictureBoxHQ.Image = global::CapaUsuario.Properties.Resources.ACEPTAR;
-            this.pictureBoxHQ.InitialImage = null;
-            this.pictureBoxHQ.Location = new System.Drawing.Point(316, 396);
-            this.pictureBoxHQ.Name = "pictureBoxHQ";
-            this.pictureBoxHQ.Size = new System.Drawing.Size(193, 56);
-            this.pictureBoxHQ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxHQ.TabIndex = 43;
-            this.pictureBoxHQ.TabStop = false;
             // 
             // FormEmpleadoHamburguesa
             // 
@@ -3199,6 +3205,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBHam)).EndInit();
             this.LHambS.ResumeLayout(false);
             this.LHambS.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).EndInit();
             this.pnlRadio_PLHambS3.ResumeLayout(false);
             this.pnlRadio_PLHambS3.PerformLayout();
             this.pnlRadio_PLHambS2.ResumeLayout(false);
@@ -3208,6 +3215,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.PExtraB.ResumeLayout(false);
             this.PExtraB.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).EndInit();
             this.pnlRadio_PExtraB4.ResumeLayout(false);
             this.pnlRadio_PExtraB4.PerformLayout();
             this.pnlRadio_PExtraB3.ResumeLayout(false);
@@ -3219,6 +3227,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.PNapo.ResumeLayout(false);
             this.PNapo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).EndInit();
             this.pnlRadio_PNapo3.ResumeLayout(false);
             this.pnlRadio_PNapo3.PerformLayout();
             this.pnlRadio_PNapo2.ResumeLayout(false);
@@ -3228,6 +3237,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.PWhopper.ResumeLayout(false);
             this.PWhopper.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).EndInit();
             this.pnlRadio_PWhooper4.ResumeLayout(false);
             this.pnlRadio_PWhooper4.PerformLayout();
             this.pnlRadio_PWhooper3.ResumeLayout(false);
@@ -3239,6 +3249,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.PLongC.ResumeLayout(false);
             this.PLongC.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).EndInit();
             this.pnlRadio_PLongC4.ResumeLayout(false);
             this.pnlRadio_PLongC4.PerformLayout();
             this.pnlRadio_PLongC3.ResumeLayout(false);
@@ -3248,6 +3259,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.PStacker.ResumeLayout(false);
             this.PStacker.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).EndInit();
             this.pnlRadio_PStacker5.ResumeLayout(false);
             this.pnlRadio_PStacker5.PerformLayout();
             this.pnlRadio_PStacker4.ResumeLayout(false);
@@ -3267,6 +3279,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PBLongc)).EndInit();
             this.PLongBBQ.ResumeLayout(false);
             this.PLongBBQ.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).EndInit();
             this.pnlRadio_PLongBBQ4.ResumeLayout(false);
             this.pnlRadio_PLongBBQ4.PerformLayout();
             this.pnlRadio_PLongBBQ3.ResumeLayout(false);
@@ -3276,6 +3289,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.PLongJQ.ResumeLayout(false);
             this.PLongJQ.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).EndInit();
             this.pnlRadio_PLongJQ4.ResumeLayout(false);
             this.pnlRadio_PLongJQ4.PerformLayout();
             this.pnlRadio_PLongJQ3.ResumeLayout(false);
@@ -3285,6 +3299,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.PLongO.ResumeLayout(false);
             this.PLongO.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).EndInit();
             this.pnlRadio_PLongO4.ResumeLayout(false);
             this.pnlRadio_PLongO4.PerformLayout();
             this.pnlRadio_PLongO3.ResumeLayout(false);
@@ -3299,15 +3314,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvConfirmar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnVolver)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLOC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLJQ)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLBBQ)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBKS)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWH)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNapo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEx)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHQ)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

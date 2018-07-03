@@ -46,8 +46,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.PBXCerrar = new System.Windows.Forms.PictureBox();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
             this.PEfec = new System.Windows.Forms.PictureBox();
             this.LimpiarPedido = new System.Windows.Forms.PictureBox();
             this.btnConfirmar = new System.Windows.Forms.PictureBox();
@@ -58,6 +56,8 @@
             this.rbDebito = new System.Windows.Forms.RadioButton();
             this.rbCredito = new System.Windows.Forms.RadioButton();
             this.dgvConfirmar = new System.Windows.Forms.DataGridView();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBHamb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBPollo)).BeginInit();
@@ -278,28 +278,6 @@
             this.PBXCerrar.TabStop = false;
             this.PBXCerrar.Click += new System.EventHandler(this.PBXCerrar_Click_1);
             // 
-            // lblTotal
-            // 
-            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(1067, 469);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(34, 13);
-            this.lblTotal.TabIndex = 39;
-            this.lblTotal.Text = "Total:";
-            this.lblTotal.Visible = false;
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(1133, 467);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(13, 13);
-            this.lblResultado.TabIndex = 40;
-            this.lblResultado.Text = "0";
-            this.lblResultado.Visible = false;
-            // 
             // PEfec
             // 
             this.PEfec.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -362,7 +340,10 @@
             // dgvCombo
             // 
             this.dgvCombo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvCombo.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvCombo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCombo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCombo.ColumnHeadersVisible = false;
             this.dgvCombo.Location = new System.Drawing.Point(1018, 164);
             this.dgvCombo.Name = "dgvCombo";
             this.dgvCombo.Size = new System.Drawing.Size(270, 179);
@@ -411,17 +392,46 @@
             // dgvConfirmar
             // 
             this.dgvConfirmar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvConfirmar.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvConfirmar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvConfirmar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConfirmar.ColumnHeadersVisible = false;
             this.dgvConfirmar.Location = new System.Drawing.Point(1018, 520);
             this.dgvConfirmar.Name = "dgvConfirmar";
             this.dgvConfirmar.Size = new System.Drawing.Size(270, 179);
             this.dgvConfirmar.TabIndex = 50;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblTotal.Location = new System.Drawing.Point(1062, 453);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(79, 25);
+            this.lblTotal.TabIndex = 54;
+            this.lblTotal.Text = "Total:";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblResultado.Location = new System.Drawing.Point(1137, 453);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(27, 25);
+            this.lblResultado.TabIndex = 55;
+            this.lblResultado.Text = "0";
             // 
             // FormEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 780);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.dgvConfirmar);
             this.Controls.Add(this.rbCredito);
             this.Controls.Add(this.rbDebito);
@@ -432,8 +442,6 @@
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.LimpiarPedido);
             this.Controls.Add(this.PEfec);
-            this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.PBXCerrar);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -487,8 +495,6 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox PBXCerrar;
-        private System.Windows.Forms.Label lblTotal;
-        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.PictureBox PEfec;
         private System.Windows.Forms.PictureBox LimpiarPedido;
         private System.Windows.Forms.PictureBox btnConfirmar;
@@ -499,6 +505,8 @@
         private System.Windows.Forms.RadioButton rbDebito;
         private System.Windows.Forms.RadioButton rbCredito;
         private System.Windows.Forms.DataGridView dgvConfirmar;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblResultado;
     }
 
 

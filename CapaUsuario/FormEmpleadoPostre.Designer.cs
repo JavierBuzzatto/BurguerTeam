@@ -872,7 +872,10 @@
             // dgvCombo
             // 
             this.dgvCombo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvCombo.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvCombo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvCombo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCombo.ColumnHeadersVisible = false;
             this.dgvCombo.Location = new System.Drawing.Point(1018, 164);
             this.dgvCombo.Name = "dgvCombo";
             this.dgvCombo.Size = new System.Drawing.Size(270, 179);
@@ -921,7 +924,10 @@
             // dgvConfirmar
             // 
             this.dgvConfirmar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.dgvConfirmar.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.dgvConfirmar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvConfirmar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvConfirmar.ColumnHeadersVisible = false;
             this.dgvConfirmar.Location = new System.Drawing.Point(1018, 520);
             this.dgvConfirmar.Name = "dgvConfirmar";
             this.dgvConfirmar.Size = new System.Drawing.Size(270, 179);
